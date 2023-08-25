@@ -19,3 +19,6 @@ DATABASE_FILE = "csgobot.db"
 STEAM_API_KEY = ""
 STEAM_USERNAME = ""
 STEAM_PASSWORD = ""
+
+# Enable/disable emojis for rank/medals etc
+DISABLE_EMOJIS_DEFAULT = True

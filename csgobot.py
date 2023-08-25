@@ -290,12 +290,12 @@ async def send_profile(interaction, target_user, disable_emojis):
 
 @command_tree.command(description="Get someone's CS:GO profile")
 @app_commands.describe(target_user="Users ID64/custom URL/CS:GO friend code")
-async def profile(interaction, target_user: str, disable_emojis: bool = False):
+async def profile(interaction, target_user: str, disable_emojis: bool = DISABLE_EMOJIS_DEFAULT):
 	await interaction.response.defer()
 	await send_profile(interaction, target_user, disable_emojis)
 
 @command_tree.command(description="Get your default Steam profile")
-async def myprofile(interaction, disable_emojis: bool = False):
+async def myprofile(interaction, disable_emojis: bool = DISABLE_EMOJIS_DEFAULT):
 	await interaction.response.defer()
 
 	steam_id = db.get_default_profile(interaction.user.id)
