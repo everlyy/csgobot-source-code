@@ -3,6 +3,8 @@
 Code is very whacky don't judge me. \
 I also didn't spend time on making the run instructions properly, so just use your brain for a second and you'll get through it.
 
+I also will NOT be fixing any bugs or any other issues with the bot as I do not work on it anymore. If anything isn't to your liking it's up to you to fix that. Do not message me anywhere asking me to fix your issues.
+
 # How to run
 
 This won't be easy to just set up and run, because I never intended it to be used by anyone else but me.
