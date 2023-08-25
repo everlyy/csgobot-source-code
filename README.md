@@ -11,4 +11,5 @@ If you want emojis to work you have to get all the images for ranks, medals, pin
 
  1. Install `steam[client]`, `csgo` and `discord` from pip, you might also have to install `sqlite3`, I don't know if that's something you have to install anymore
  2. Rename `config.def.py` to `config.py` and fill all the empty variables.
- 3. Run `python3 csgobot.py` (Or whatever python is called on your system)
+ 3. Create a folder called `credentials`, this is where your Steam login will be saved
+ 4. Run `python3 csgobot.py` (Or whatever python is called on your system)
