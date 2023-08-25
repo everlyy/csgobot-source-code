@@ -1,0 +1,5 @@
+credentials/
+__pycache__/
+profile-request-log.txt
+log.txt
+config.py
